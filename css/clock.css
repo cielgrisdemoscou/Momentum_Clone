@@ -1,0 +1,8 @@
+.js-clock {
+    justify-content: center;
+    color: #34495e;
+    font-size: 200px;
+    font-weight: 700;
+    cursor: default;
+    opacity: 0.9;
+  }

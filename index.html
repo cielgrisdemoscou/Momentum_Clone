@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Main | Mementum Clone</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <div class="js-clock">
-        <h1>00:00</h1>
+    <div class="status-bar">
+        <div class="status-bar__column g-search">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Google Search" />
+        </div>
+        <div class="status-bar__column status__weather">
+            <div class="s-weather">
+            <i class="fas fa-thermometer-half"></i>
+            <span class="js-weather"></span>
+            </div>
+
+            <div class="s-place">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="js-place"></span>
+            </div>
+        </div>
     </div>
+    <main class="main">
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+        
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm">
+            <input type="text" placeholder="What is your main focus?" />
+        </form>
+    </main>
+    <div class="to-do__main toDoList">
+        <span class="toDoTitle">Todo</span>
+        <ul class="js-toDoList"></ul>
+    </div>
+        <spanc class="js-weather"></spanc>
+        <script src="js/clock.js"></script>
+        <script src="js/greeting.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/bg.js"></script>
+        <script src="js/weather.js"></script>
     
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?">
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList">
-    </ul>
-    <spanc class="js-weather"></spanc>
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-    <script src="todo.js"></script>
-    <script src="bg.js"></script>
-    <script src="weather.js"></script>
 </body>
 </html>
