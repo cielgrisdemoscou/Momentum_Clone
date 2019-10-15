@@ -24,14 +24,13 @@ body {
 }
 
 input[type="text"] {
-    margin-top: 1.4em;
     outline: none;
     border: none;
     border-bottom: 2px solid #34495e;;
     color: #34495e;
     background-color: transparent;
     font-size: 1.7em;
-    margin-bottom: 1.4em;
+    margin-bottom: 1em;
     text-align: left;
     font-weight: 550;
     
@@ -52,6 +51,10 @@ input::placeholder {
     text-align: left;
 }
 
+.js-form {
+    margin-top: 1.5em;
+}
+
 .greetings {
     margin-top: 20px;
     font-size: 3.3em;
@@ -59,6 +62,7 @@ input::placeholder {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     opacity: 0.9;
+    margin-bottom: 1em;
 }
 
 
